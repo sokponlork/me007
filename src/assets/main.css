@@ -1,0 +1,29 @@
+/* src/assets/main.css */
+
+@import "tailwindcss"; /* Imports Tailwind's base, components, and utilities */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url('/angkor.webp'); /* Ensure angkor.webp is in your public/ folder */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Custom styles for smoother mobile menu transition */
+.mobile-menu-transition {
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.mobile-menu-transition.open {
+  max-height: 300px;
+  opacity: 1;
+}
+.home-title-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
