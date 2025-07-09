@@ -27,7 +27,7 @@ const translations = {
     },
     about: {
       title: 'About Me',
-      basicInfo: 'Hello! I am Ponlork Sok, From Takeo province, 1981. A passionate software developer and data enthusiast with a strong background in building robust web applications and designing efficient data solutions. I thrive on solving complex problems and transforming data into actionable insights. My journey in technology has equipped me with a diverse skill set, allowing me to contribute effectively to various stages of software and data lifecycles.',
+      basicInfo: 'Hello! I am Ponlork Sok, from Takeo province, 1981. A passionate software developer and data enthusiast with a strong background in building robust web applications and designing efficient data solutions. I thrive on solving complex problems and transforming data into actionable insights. My journey in technology has equipped me with a diverse skill set, allowing me to contribute effectively to various stages of software and data lifecycles.',
       educationTitle: 'Education',
       education: [
         'Master of Data Science, 2026',
