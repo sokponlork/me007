@@ -65,6 +65,7 @@ const handleFeedbackSubmit = () => {
           {{ t.contact.feedbackTitle }}
         </h3>
         <form @submit.prevent="handleFeedbackSubmit" class="space-y-4">
+
           <div>
             <label for="name" class="sr-only">
               {{ t.contact.namePlaceholder }}
@@ -78,6 +79,7 @@ const handleFeedbackSubmit = () => {
               required
             />
           </div>
+
           <div>
             <label for="email" class="sr-only">
               {{ t.contact.emailPlaceholder }}
@@ -91,6 +93,7 @@ const handleFeedbackSubmit = () => {
               required
             />
           </div>
+
           <div>
             <label for="message" class="sr-only">
               {{ t.contact.messagePlaceholder }}
