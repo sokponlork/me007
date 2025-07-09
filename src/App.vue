@@ -27,7 +27,7 @@ const translations = {
     },
     about: {
       title: 'About Me',
-      basicInfo: 'Hello! I am Ponlork Sok, a passionate software developer and data enthusiast with a strong background in building robust web applications and designing efficient data solutions. I thrive on solving complex problems and transforming data into actionable insights. My journey in technology has equipped me with a diverse skill set, allowing me to contribute effectively to various stages of software and data lifecycles.',
+      basicInfo: 'Hello! I am Ponlork Sok, From Takeo province, 1981. A passionate software developer and data enthusiast with a strong background in building robust web applications and designing efficient data solutions. I thrive on solving complex problems and transforming data into actionable insights. My journey in technology has equipped me with a diverse skill set, allowing me to contribute effectively to various stages of software and data lifecycles.',
       educationTitle: 'Education',
       education: [
         'Master of Data Science, 2026',
@@ -95,7 +95,7 @@ const translations = {
     },
     about: {
       title: 'អំពីខ្ញុំ',
-      basicInfo: 'សួស្តី! ខ្ញុំបាទ ពន្លក សុខ ជាអ្នកអភិវឌ្ឍន៍កម្មវិធី និងជាអ្នកចូលចិត្តទិន្នន័យ ដែលមានបទពិសោធន៍យ៉ាងរឹងមាំក្នុងការកសាងកម្មវិធីគេហទំព័រ និងរកដំណោះស្រាយទិន្នន័យប្រកបដោយប្រសិទ្ធភាព។ ខ្ញុំរីករាយនឹងការដោះស្រាយបញ្ហាស្មុគស្មាញ និងការបំប្លែងទិន្នន័យទៅជាការយល់ដឹងដែលអាចអនុវត្តបាន ជំនួយដល់ការធ្វើផែនការណ៍ ការសម្រេចចិត្តបានត្រឹមត្រូវក្នុងអាជីវកម្មរបស់លោកអ្នក។',
+      basicInfo: 'សួស្តី! ខ្ញុំបាទ សុខ ពន្លក មកពីខេត្តតាកែវ កើតឆ្នាំ ១៩៨១។ ជាអ្នកអភិវឌ្ឍន៍កម្មវិធី និងជាអ្នកចូលចិត្តទិន្នន័យ ដែលមានបទពិសោធន៍យ៉ាងរឹងមាំក្នុងការកសាងកម្មវិធីគេហទំព័រ និងរកដំណោះស្រាយទិន្នន័យប្រកបដោយប្រសិទ្ធភាព។ ខ្ញុំរីករាយនឹងការដោះស្រាយបញ្ហាស្មុគស្មាញ និងការបំប្លែងទិន្នន័យទៅជាការយល់ដឹងដែលអាចអនុវត្តបាន ជំនួយដល់ការធ្វើផែនការណ៍ ការសម្រេចចិត្តបានត្រឹមត្រូវក្នុងអាជីវកម្មរបស់លោកអ្នក។',
       educationTitle: 'ការអប់រំ',
       education: [
         'បរិញ្ញាបត្រជាន់ខ្ពស់វិទ្យាសាស្ត្រទិន្នន័យ',
