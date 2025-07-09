@@ -29,38 +29,38 @@ const t = props.translations;
       />
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-blue-50 p-10 rounded-xl shadow-lg border border-blue-200 transform hover:scale-105 transition-transform duration-300">
-        <h3 class="text-2xl font-semibold text-blue-600 mb-4 flex items-center">
-          <i class="fas fa-graduation-cap text-blue-500 mr-3"></i>
-          {{ t.about.educationTitle }}
-        </h3>
-        <ul class="list-disc list-inside space-y-2 text-gray-700">
-          <li v-for="(item, index) in t.about.education" :key="index">{{ item }}</li>
-        </ul>
-      </div>
+    <div class="max-w-6xl mx-auto"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-blue-50 p-10 rounded-xl shadow-lg border border-blue-200 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4 flex items-center">
+            <i class="fas fa-graduation-cap text-blue-500 mr-3"></i>
+            {{ t.about.educationTitle }}
+          </h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li v-for="(item, index) in t.about.education" :key="index">{{ item }}</li>
+          </ul>
+        </div>
 
-      <div class="bg-green-50 p-10 rounded-xl shadow-lg border border-green-200 transform hover:scale-105 transition-transform duration-300">
-        <h3 class="text-2xl font-semibold text-green-600 mb-4 flex items-center">
-          <i class="fas fa-briefcase text-green-500 mr-3"></i>
-          {{ t.about.experienceTitle }}
-        </h3>
-        <ul class="list-disc list-inside space-y-2 text-gray-700">
-          <li v-for="(item, index) in t.about.experience" :key="index">{{ item }}</li>
-        </ul>
-      </div>
+        <div class="bg-green-50 p-10 rounded-xl shadow-lg border border-green-200 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-semibold text-green-600 mb-4 flex items-center">
+            <i class="fas fa-briefcase text-green-500 mr-3"></i>
+            {{ t.about.experienceTitle }}
+          </h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li v-for="(item, index) in t.about.experience" :key="index">{{ item }}</li>
+          </ul>
+        </div>
 
-      <div class="bg-purple-50 p-10 rounded-xl shadow-lg border border-purple-200 transform hover:scale-105 transition-transform duration-300">
-        <h3 class="text-2xl font-semibold text-purple-600 mb-4 flex items-center">
-          <i class="fas fa-lightbulb text-purple-500 mr-3"></i>
-          {{ t.about.skillsTitle }}
-        </h3>
-        <ul class="list-disc list-inside space-y-2 text-gray-700">
-          <li v-for="(item, index) in t.about.skills" :key="index">{{ item }}</li>
-        </ul>
+        <div class="bg-purple-50 p-10 rounded-xl shadow-lg border border-purple-200 transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-semibold text-purple-600 mb-4 flex items-center">
+            <i class="fas fa-lightbulb text-purple-500 mr-3"></i>
+            {{ t.about.skillsTitle }}
+          </h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li v-for="(item, index) in t.about.skills" :key="index">{{ item }}</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </div> </section>
 </template>
 
 <style scoped>
