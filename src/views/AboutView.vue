@@ -40,7 +40,7 @@ const t = props.translations;
         </ul>
       </div>
 
-      <div class="bg-blue-50 p-10 rounded-xl shadow-lg border border-blue-200 transform hover:scale-105 transition-transform duration-300">
+      <div class="bg-green-50 p-10 rounded-xl shadow-lg border border-green-200 transform hover:scale-105 transition-transform duration-300">
         <h3 class="text-2xl font-semibold text-green-600 mb-4 flex items-center">
           <i class="fas fa-briefcase text-green-500 mr-3"></i>
           {{ t.about.experienceTitle }}
@@ -50,7 +50,7 @@ const t = props.translations;
         </ul>
       </div>
 
-      <div class="bg-purple-50 p-8 rounded-xl shadow-lg border border-purple-200 transform hover:scale-105 transition-transform duration-300">
+      <div class="bg-purple-50 p-10 rounded-xl shadow-lg border border-purple-200 transform hover:scale-105 transition-transform duration-300">
         <h3 class="text-2xl font-semibold text-purple-600 mb-4 flex items-center">
           <i class="fas fa-lightbulb text-purple-500 mr-3"></i>
           {{ t.about.skillsTitle }}
@@ -59,7 +59,6 @@ const t = props.translations;
           <li v-for="(item, index) in t.about.skills" :key="index">{{ item }}</li>
         </ul>
       </div>
-
     </div>
   </section>
 </template>
