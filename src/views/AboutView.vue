@@ -13,6 +13,22 @@ const t = props.translations;
     id="about"
     class="p-8 md:p-12 mb-1"
   >
+    <h2 class="text-3xl md:text-4xl font-bold text-blue-700 mb-8 text-center drop-shadow-sm">
+      {{ t.about.title }}
+    </h2>
+
+    <p class="text-center text-gray-700 text-lg mb-8 max-w-3xl mx-auto leading-relaxed bg-blue-50 p-6 rounded-lg shadow-md">
+      {{ t.about.basicInfo }}
+    </p>
+
+    <div class="flex justify-center mb-8">
+      <img
+        src="/me.jpg" alt="Your Photo"
+        class="rounded-full w-48 h-48 object-cover shadow-lg border-4 border-blue-200 transform hover:scale-105 transition-transform duration-300"
+        onerror="this.onerror=null; this.src='https://placehold.co/200x200/ADD8E6/000000?text=Image+Error';"
+      />
+    </div>
+
     <div class="max-w-6xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-blue-50 p-10 rounded-xl shadow-lg border border-blue-200 transform hover:scale-105 transition-transform duration-300">
