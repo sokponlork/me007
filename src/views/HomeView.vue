@@ -61,11 +61,19 @@ onUnmounted(() => {
     id="home"
     class="mb-1 flex flex-col items-center justify-center text-center relative overflow-hidden"
   >
-    <div class="w-full home-title-bg relative overflow-hidden flex flex-col items-center justify-center py-16 md:py-24">
-      <div class="absolute inset-0 bg-black opacity-0 z-0"></div>
+
+    <div class="mt-8 text-center">
+      <a
+        href="https://github.com/sokponlork/me007"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition duration-300"
+      >
+      <i class="fab fa-github mr-2"></i> View code on GitHub
+      </a>
     </div>
 
-    <div class="relative w-[90%] overflow-hidden rounded-xl shadow-inner bg-blue-50 bg-opacity-80 p-6 border border-blue-200 relative z-10 mt-8">
+    <div class="relative w-[100%] overflow-hidden rounded-xl shadow-inner bg-blue-50 bg-opacity-80 p-6 border border-blue-200 relative z-10 mt-8">
       <div class="flex transition-transform duration-500 ease-in-out"
            :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
         <div v-for="(activity, index) in t.home.activities" :key="index" class="w-full flex-shrink-0 flex flex-col items-center justify-center py-8">
