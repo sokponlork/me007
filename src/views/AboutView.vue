@@ -29,7 +29,8 @@ const t = props.translations;
       />
     </div>
 
-    <div class="max-w-6xl mx-auto"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-blue-50 p-10 rounded-xl shadow-lg border border-blue-200 transform hover:scale-105 transition-transform duration-300">
           <h3 class="text-2xl font-semibold text-blue-600 mb-4 flex items-center">
             <i class="fas fa-graduation-cap text-blue-500 mr-3"></i>
@@ -60,7 +61,8 @@ const t = props.translations;
           </ul>
         </div>
       </div>
-    </div> </section>
+    </div>
+  </section>
 </template>
 
 <style scoped>
